@@ -29,9 +29,22 @@
 		D32B98412E34E61C00D93D2D /* GarminDisconnectNotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarminDisconnectNotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D32B98552E34E82D00D93D2D /* Exceptions for "GarminDisconnectNotify" folder in "GarminDisconnectNotify" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D32B98292E34E61B00D93D2D /* GarminDisconnectNotify */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D32B982C2E34E61B00D93D2D /* GarminDisconnectNotify */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D32B98552E34E82D00D93D2D /* Exceptions for "GarminDisconnectNotify" folder in "GarminDisconnectNotify" target */,
+			);
 			path = GarminDisconnectNotify;
 			sourceTree = "<group>";
 		};
@@ -400,6 +413,10 @@
 				DEVELOPMENT_TEAM = NS3M66VP2N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GarminDisconnectNotify/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Garmin の接続状態を監視するために Bluetooth を使用します。";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Garmin デバイスへ接続するために使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +445,10 @@
 				DEVELOPMENT_TEAM = NS3M66VP2N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GarminDisconnectNotify/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Garmin の接続状態を監視するために Bluetooth を使用します。";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Garmin デバイスへ接続するために使用します。";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

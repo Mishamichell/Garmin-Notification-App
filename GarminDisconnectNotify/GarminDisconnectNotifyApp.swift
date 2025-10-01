@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct GarminDisconnectNotifyApp: App {
+    // インスタンスを保持してアプリ存続中は常時監視
+    @StateObject private var watcher = BLEWatcher()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView()   // UI はシンプルで OK
         }
     }
 }
+
